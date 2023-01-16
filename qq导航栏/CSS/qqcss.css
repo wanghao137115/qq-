@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    overflow: scroll;
+}
+a{
+    text-decoration: none;//去下划线
+}
+
+.nav-header{
+    height: 75px;
+    width: 100%;
+/*    渐变颜色*/
+    background-color: #8EC5FC;
+    background-image: linear-gradient(318deg,#8EC5FC 0%,#ffffff 100%);
+}
+
+.header-contain{
+    /*width: auto;*/
+    padding-left: 80px;
+    height: 75px;
+}
+
+.nav-top,.nav-top li,.nav-fill,.tools-tops,.tools-right,.tools-right li{
+    height: 75px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nav-logo{
+
+    padding-right: 214px;
+    height: 75px;
+    display: inline-block;
+    vertical-align: top;
+    background: transparent url(https://sqimg.qq.com/qq_product_operations/im/qqlogo/imlogo_b.png) no-repeat left 15px;
+}
+.nav-top li,.tools-tops a,.tools-right li{
+    width: 75px;
+    line-height: 75px;
+}
+
+
+
+.nav-top{
+    padding-left:30px ;
+}
+
+.nav-top li a{
+    text-align: center;
+    display: block;
+    color: black;
+    /*margin-top: 18px;*/
+    /*margin-left: 100px;*/
+}
+
+.nav-top li:hover{
+    background-color: #00bce5;
+}
+
+.nav-fill{
+    padding-left: 250px;
+}
+
+.tools-tops a{
+    width: 96px;
+    height: 39px;
+    margin-top: 18px;
+    line-height: 39px;
+    border-radius: 25px;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    color: white;
+    background: #00bce5;
+}
+
+.tools-right{
+    padding-left: 30px;
+}
+
+.tools-right li a{
+    font-size: small;
+    /*color: black;*/
+    /*text-align: center;*/
+    /*margin-top: 100px;*/
+    /*text-align: center;*/
+    color: black;
+    /*margin-top: 30px;*/
+    /*margin-right: 10px;*/
+
+}
+
+.tools-right li a:hover{
+    color: #02d3ff;
+}
